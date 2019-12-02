@@ -1,0 +1,5 @@
+.idea
+venv
+configuration.yaml
+test.py
+requirements.dev.txt

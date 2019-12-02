@@ -1,0 +1,6 @@
+skills:
+  - name: docker-daemon
+    path: /root/.skills/skill-docker-daemon
+    daemon-url: unix://var/run/docker.sock
+    containers-blacklist:
+      - opsdroid-skill-docker-daemon_opsdroid_1
