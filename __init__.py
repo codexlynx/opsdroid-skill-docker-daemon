@@ -21,7 +21,7 @@ class DockerDaemonSkill(Skill):
                 yield container
 
     def get_container(self, message):
-        client = docker.DockerClient(base_url=self.config['daemon-url'])
+        client = self.docker_client()
         container_id = message.parse_result['container_id']
         container = client.containers.get(container_id)
         return container

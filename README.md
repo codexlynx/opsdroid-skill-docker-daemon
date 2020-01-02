@@ -1,4 +1,4 @@
-### opsdroid / skill-docker-daemon
+## opsdroid / skill-docker-daemon
 Skill to operate a docker daemon over chat. This repo has a "skill" for opsdroid, an open source chat-ops bot framework: https://opsdroid.dev.
 
 #### Install:
