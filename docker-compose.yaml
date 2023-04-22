@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   opsdroid:
-    image: opsdroid/opsdroid:v0.16.0
+    image: opsdroid/opsdroid:v0.28.0
     privileged: true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:rw
